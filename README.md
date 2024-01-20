@@ -97,16 +97,16 @@ void callback(char* topic, byte* payload, unsigned int length) {
 }
 ```
 2. Instalar la libreria de **ArduinoJson** y **PubSubClient** como se muestra en la siguiente imagen.
-![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(322).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.10-Encender-LED/blob/main/Captura%20de%20pantalla%20(338).png?raw=true)
 
 3. Hacer la conexion del **LED** como se muestra en la siguente imagen.
-![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(323).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.10-Encender-LED/blob/main/Captura%20de%20pantalla%20(339).png?raw=true)
 
 4. Abrir **Node-RED** y hacer la conexión de las herramientas como se muestra en la imagen.
-![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(324).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.10-Encender-LED/blob/main/Captura%20de%20pantalla%20(340).png?raw=true)
 
 5. Colocar el servidor y el topico dando *doble click* en el recuadro de *mqtt out**.
-![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(325).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.10-Encender-LED/blob/main/Captura%20de%20pantalla%20(341).png?raw=true)
 
 6. Dar *click* en el botón *deploy* y abrir la interfaz para observar los resultados.
 
@@ -117,7 +117,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 ## Resultados
 Cuando haya funcionado, se podrán observar los valores en la interfaz de Node-RED.
-![](https://github.com/AbrahamCH1/Practica-No.8-Node-RED-con-DHT22/blob/main/Captura%20de%20pantalla%20(328).png?raw=true)
+![](https://github.com/AbrahamCH1/Practica-No.10-Encender-LED/blob/main/Captura%20de%20pantalla%20(337).png?raw=true)
 
 
 # Créditos
